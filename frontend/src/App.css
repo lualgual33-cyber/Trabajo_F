@@ -1,0 +1,90 @@
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 35px auto;
+    padding: 25px;
+    background: rgb(223, 152, 230);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(22, 27, 51, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d686e0;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.primary {
+    background: #bbd1e9;
+    color: white;
+}
+
+.primary:hover {
+    background: #bbd1e9;
+}
+
+.warning {
+    background: rgb(167, 230, 191);
+    color: white;
+}
+
+.info {
+    background: #bbd1e9;
+    color: white;
+}
+
+.danger {
+    background: red;
+    color: white;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-card {
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #bbd1e9;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.pendiente {
+    color: red;
+}
+
+.completado {
+    color: green;
+}
+
+.acciones button {
+    margin-right: 10px;
+}
